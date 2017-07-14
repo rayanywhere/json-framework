@@ -1,0 +1,28 @@
+{
+  "name": "json-framework",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayanywhere/json-framework.git"
+  },
+  "keywords": [
+    "json",
+    "framework"
+  ],
+  "author": "rayanywhere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayanywhere/json-framework/issues"
+  },
+  "homepage": "https://github.com/rayanywhere/json-framework#readme",
+  "dependencies": {
+    "ajv": "^5.2.2",
+    "ajv-keywords": "^2.1.0",
+    "tcp-framework": "^1.2.8"
+  }
+}
