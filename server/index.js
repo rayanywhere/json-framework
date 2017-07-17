@@ -32,6 +32,6 @@ module.exports = class extends TcpServer {
     }
 
     process({command, payload}) {
-        throw new Error('this method is meant to be implemented');
+        return Promise.reject(new Error('this method is meant to be implemented'));
     }
 };
